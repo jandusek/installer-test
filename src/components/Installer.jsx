@@ -28,8 +28,8 @@ class Installer extends Component {
   }
 
   connectSocket() {
-    const HOST = window.location.origin.toString().replace(/^http/, 'ws');
-    //const HOST = 'ws://localhost:3001';
+    const HOST =
+      window.location.origin.toString().replace(/^http/, 'ws') + '/ws';
     console.log('HOST:', HOST);
     this.socket = new W3CWebSocket(HOST);
     this.socket.onopen = () => {

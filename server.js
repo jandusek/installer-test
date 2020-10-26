@@ -20,7 +20,8 @@ const server = express()
 
 // Spinning the http server and the websocket server.
 const wsServer = new webSocketServer({
-  httpServer: server
+  httpServer: server,
+  path: '/ws'
 });
 const clients = {};
 
