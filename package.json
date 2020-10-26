@@ -1,0 +1,47 @@
+{
+    "name": "ppd-installer",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:3000",
+    "dependencies": {
+        "@ant-design/icons": "^4.2.2",
+        "@craco/craco": "^5.7.0",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "antd": "^4.7.3",
+        "body-parser": "^1.19.0",
+        "bufferutil": "^4.0.1",
+        "craco-less": "^1.17.0",
+        "express": "^4.17.1",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "react-scripts": "3.4.3",
+        "serve": "^11.3.2",
+        "twilio": "^3.50.0",
+        "utf-8-validate": "^5.0.2",
+        "websocket": "^1.0.32",
+        "ws": "^5.2.2"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "devel": "craco start",
+        "build": "craco build",
+        "test": "craco test"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
