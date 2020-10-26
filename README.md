@@ -1,7 +1,7 @@
-# Test
+# Installer Test
 
-This is a test repo.
+This is a test of an automated Heroku installer.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-The end.
+Click the button above to deploy it to Heroku.

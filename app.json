@@ -1,6 +1,6 @@
 {
     "name": "Twilio Phone Client Installer",
     "description": "An installer for the Twilio Phone Client",
-    "repository": "https://github.com/jandusek/twilio-phone-client-installer",
+    "repository": "https://github.com/jandusek/installer-test",
     "keywords": ["node", "express", "static"]
 }
